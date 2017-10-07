@@ -1,0 +1,21 @@
+# diff
+# Betaflight / ACROWHOOP 3.2.0 Feb 12 2017 / 23:51:42 (1fe76a9)
+name Ice Bear
+
+feature -RX_PARALLEL_PWM
+feature RX_SERIAL
+feature TELEMETRY
+feature VTX
+serial 1 0 115200 57600 0 115200
+aux 0 0 0 1625 1825
+aux 1 27 0 1625 1825
+aux 2 1 1 1725 1900
+aux 3 2 1 925 1125
+set serialrx_provider = SPEK2048
+set vbat_max_cell_voltage = 42
+set vbat_warning_cell_voltage = 37
+set pid_process_denom = 1
+profile 0
+
+rateprofile 0
+rateprofile 0
